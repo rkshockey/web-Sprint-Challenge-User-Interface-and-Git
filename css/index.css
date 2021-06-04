@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* General Styling */
 * {
     box-sizing: border-box;
 }
@@ -65,6 +65,35 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+/*Home styles*/
+
+.head {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 5%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.head nav{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.jumbo {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
 
 .container {
     width: 800px;
@@ -112,6 +141,37 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+.middle-content .boxes .box2 {
+    background: gold;
+}
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background: coral;
+}
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +185,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
 
 footer {
     width: 100%;
@@ -143,4 +205,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About page styling*/
+.about-page .about-top .text-container {
+    width: 800px;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.about-page .about-sub {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 3px dotted black;
+    padding: 2% 0;
+}
+
+.about-page .about-sub .about-container {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    padding: 2% 0;
+    margin-top: 4%;
+}
+
+.about-container img, .about-container p, .about-container a {
+    margin: 2% 0;
+}
+
+.about-container a{
+    width: 120px;
+    border: 3px solid black;
+    border-radius: 10%;
+    padding: 2%;
+    text-align: center;
+}
+.about-bottom {
+    margin: 4% 0;
 }
