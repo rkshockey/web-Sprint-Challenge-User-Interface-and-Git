@@ -186,6 +186,8 @@ a {
     padding-right: 0;
 }
 
+
+
 footer {
     width: 100%;
     background: black;
@@ -203,4 +205,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About page styling*/
+.about-page .about-top .text-container {
+    width: 800px;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.about-page .about-sub {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 3px dotted black;
+    padding: 2% 0;
+}
+
+.about-page .about-sub .about-container {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    padding: 2% 0;
+    margin-top: 4%;
+}
+
+.about-container img, .about-container p, .about-container a {
+    margin: 2% 0;
+}
+
+.about-container a{
+    width: 120px;
+    border: 3px solid black;
+    border-radius: 10%;
+    padding: 2%;
+    text-align: center;
+}
+.about-bottom {
+    margin: 4% 0;
 }
